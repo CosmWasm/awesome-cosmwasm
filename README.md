@@ -14,13 +14,15 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 ## General Resources
 
-- CosmWasm official documentation
-- CosmWasm framework
-- CosmWasm template
+- [CosmWasm official documentation](https://www.cosmwasm.com)
+- [CosmWasm framework](https://github.com/confio/cosmwasm) - you will import this for your contracts, README has useful info and links
+- [CosmWasm template](https://github.com/confio/cosmwasm-template) - how to start building your own contract
 - Rust info
 - Wasm info
 
 ## Smart Contracts
+
+TODO: add note about how to publish
 
 - Escrow
 - ERC20
