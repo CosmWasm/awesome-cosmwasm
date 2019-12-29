@@ -20,10 +20,16 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 ## Smart Contracts
 
-TODO: add note about how to publish the info - github tag, cargo, etc
+Before you create a PR to add your contract here, read the [publishing guidelines](https://github.com/confio/cosmwasm-template/blob/master/Publishing.md) and make sure you complete them all, specifically adding an OSI-approved
+license and checking in valid artifacts for the build (`contract.wasm`, `schema/*.json`).
+
+We do validate the artifacts and perform a basic code review of contracts included in this list. However, nothing
+terribly comprehensive and inclusion here should not be taken in lieu of a proper audit. We do provide some
+guidelines on
+[sharing code reviews in a decentralized manner](https://github.com/confio/cosmwasm-template/blob/master/Importing.md)
+which can be used as the basis for a peer-reviewed audit.
 
 - [cw-escrow](https://crates.io/crates/cw-escrow) by [ethanfrey](https://github.com/ethanfrey) ([repo](https://github.com/confio/cosmwasm-examples/tree/master/escrow)): A simple CosmWasm contract for an escrow with arbiter and timeout
-- ERC20
 
 ## Smart Contract Libraries
 
@@ -31,7 +37,7 @@ TODO
 
 ## Tooling
 
-- cosmwasm-opt
+- [cosmwasm-opt](https://github.com/confio/cosmwasm-opt) is a build system for deterministic wasm code, essential so we can validate the rust code behind the byte code
 
 ## dApps
 
