@@ -17,14 +17,12 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 - [CosmWasm official documentation](https://www.cosmwasm.com)
 - [CosmWasm framework](https://github.com/confio/cosmwasm) - you will import this for your contracts, README has useful info and links
 - [CosmWasm template](https://github.com/confio/cosmwasm-template) - how to start building your own contract
-- Rust info
-- Wasm info
 
 ## Smart Contracts
 
-TODO: add note about how to publish
+TODO: add note about how to publish the info - github tag, cargo, etc
 
-- Escrow
+- [cw-escrow](https://crates.io/crates/cw-escrow) by [ethanfrey](https://github.com/ethanfrey) ([repo](https://github.com/confio/cosmwasm-examples/tree/master/escrow)): A simple CosmWasm contract for an escrow with arbiter and timeout
 - ERC20
 
 ## Smart Contract Libraries
