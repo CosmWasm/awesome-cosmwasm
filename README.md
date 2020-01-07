@@ -30,6 +30,7 @@ guidelines on
 which can be used as the basis for a peer-reviewed audit.
 
 - [cw-escrow](https://crates.io/crates/cw-escrow) by [ethanfrey](https://github.com/ethanfrey) ([repo](https://github.com/confio/cosmwasm-examples/tree/master/escrow)): A simple CosmWasm contract for an escrow with arbiter and timeout
+- [cw-erc20](https://crates.io/crates/cw-erc20) by [webmaster128](https://github.com/webmaster128) ([repo](https://github.com/confio/cosmwasm-examples/tree/master/erc20)): Porting the erc20 token standard to CosmWasm
 
 ## Smart Contract Libraries
 
