@@ -34,7 +34,7 @@ which can be used as the basis for a peer-reviewed audit.
 
 ## Smart Contract Libraries
 
-TODO
+- [cw-storage](https://crates.io/crates/cw-storage) by [ethanfrey](https://github.com/ethanfrey) ([repo](https://github.com/confio/cosmwasm-examples/tree/master/escrow)): Helper methods to reduce boilerplate for storing data types. Easier and more secure persistence layer.
 
 ## Tooling
 
