@@ -6,8 +6,6 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 ## Contents
 
-- [Awesome CosmWasm ![Awesome](https://awesome.re)](#awesome-cosmwasm-img-srchttpsawesomerebadgesvg-altawesome)
-  - [Contents](#contents)
   - [General Resources](#general-resources)
   - [Smart Contracts](#smart-contracts)
   - [Smart Contract Libraries](#smart-contract-libraries)
@@ -16,7 +14,7 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 ## General Resources
 
-- [CosmWasm official documentation](https://www.cosmwasm.com)
+- [CosmWasm official documentation](https://docs.cosmwasm.com)
 - [CosmWasm framework](https://github.com/confio/cosmwasm) - you will import this for your contracts, README has useful info and links
 - [CosmWasm template](https://github.com/confio/cosmwasm-template) - how to start building your own contract
 
