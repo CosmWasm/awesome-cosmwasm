@@ -15,8 +15,8 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 ## General Resources
 
 - [CosmWasm official documentation](https://docs.cosmwasm.com)
-- [CosmWasm framework](https://github.com/confio/cosmwasm) - you will import this for your contracts, README has useful info and links
-- [CosmWasm template](https://github.com/confio/cosmwasm-template) - how to start building your own contract
+- [CosmWasm framework](https://github.com/CosmWasm/cosmwasm) - you will import this for your contracts, README has useful info and links
+- [CosmWasm template](https://github.com/CosmWasm/cosmwasm-template) - how to start building your own contract
 
 ## Smart Contracts
 
@@ -29,13 +29,6 @@ guidelines on
 [sharing code reviews in a decentralized manner](https://github.com/confio/cosmwasm-template/blob/master/Importing.md)
 which can be used as the basis for a peer-reviewed audit.
 
-### Official Contracts
-
-Official contracts are developed and maintained by cosmwasm team
-
-- [cw-escrow](https://crates.io/crates/cw-escrow) by [ethanfrey](https://github.com/ethanfrey) ([repo](https://github.com/confio/cosmwasm-examples/tree/master/escrow)): A simple CosmWasm contract for an escrow with arbiter and timeout.
-- [cw-erc20](https://crates.io/crates/cw-erc20) by [webmaster128](https://github.com/webmaster128) ([repo](https://github.com/confio/cosmwasm-examples/tree/master/erc20)): Porting the erc20 token standard to CosmWasm.
-
 ### Plus Contracts
 
 [The plus contracts](https://github.com/CosmWasm/cosmwasm-plus) are designed with a cosmwasm-specific spec and focus on composability.
@@ -46,7 +39,7 @@ Official contracts are developed and maintained by cosmwasm team
 
 ### Trivial Contracts
 
-Here are the contracts that are either external or for example purposes. Please do not use them in production:
+These contracts demonstrates best practices and learning references. Please do not use them in production:
 
 - [mask](https://github.com/CosmWasm/cosmwasm-examples/tree/master/mask): The Mask works as a proxy contract that has an address and can hold tokens, and interact with other contracts like any normal user account. For more reading: [introducing the mask](https://medium.com/confio/introducing-the-mask-41d11e51bccf)
 - [name service](https://github.com/CosmWasm/cosmwasm-examples/tree/master/nameservice): Blockchain name service in cosmwasm.
@@ -55,7 +48,8 @@ Here are the contracts that are either external or for example purposes. Please 
 
 ## Smart Contract Libraries
 
-- [cw-storage](https://crates.io/crates/cw-storage) by [ethanfrey](https://github.com/ethanfrey) ([repo](https://github.com/confio/cosmwasm-examples/tree/master/escrow)): Helper methods to reduce boilerplate for storing data types. Easier and more secure persistence layer.
+- [cw-std](https://github.com/CosmWasm/cosmwasm/tree/master/packages/std): The standard library for building CosmWasm smart contracts. Code in this package is compiled into the smart contract.
+- [cw-storage](https://crates.io/crates/cw-storage) ([repo](https://github.com/CosmWasm/cosmwasm/tree/master/packages/storage)): Helper methods to reduce boilerplate for storing data types. Easier and more secure persistence layer.
 
 ## Tooling
 
