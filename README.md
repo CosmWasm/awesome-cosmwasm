@@ -48,8 +48,8 @@ These contracts demonstrates best practices and learning references. Please do n
 
 ## Smart Contract Libraries
 
-- [cw-std](https://github.com/CosmWasm/cosmwasm/tree/master/packages/std): The standard library for building CosmWasm smart contracts. Code in this package is compiled into the smart contract.
-- [cw-storage](https://crates.io/crates/cw-storage) ([repo](https://github.com/CosmWasm/cosmwasm/tree/master/packages/storage)): Helper methods to reduce boilerplate for storing data types. Easier and more secure persistence layer.
+- [cosmwasm-std](https://crates.io/crates/cosmwasm-std) ([repo](https://github.com/CosmWasm/cosmwasm/tree/master/packages/std)): The standard library for building CosmWasm smart contracts. Code in this package is compiled into the smart contract.
+- [cosmwasm-storage](https://crates.io/crates/cosmwasm-storage) ([repo](https://github.com/CosmWasm/cosmwasm/tree/master/packages/storage)): Helper methods to reduce boilerplate for storing data types. Easier and more secure persistence layer.
 
 ## Tooling
 
