@@ -46,6 +46,14 @@ These contracts demonstrates best practices and learning references. Please do n
 - [erc20](https://github.com/CosmWasm/cosmwasm-examples/tree/master/erc20): Implementation of Ethereum's [ERC20](https://eips.ethereum.org/EIPS/eip-20) interface.
 - [escrow](https://github.com/CosmWasm/cosmwasm-examples/tree/master/escrow): This is a simple single-use escrow contract.
 
+## External projects
+
+These projects/contracts are developed and maintained by CosmWasm community.
+
+- [substrate-light-client](https://github.com/ChorusOne/substrate-light-client): Implementation of substrate light client in rust compilable to wasm. It is written to be integrated with CosmWasm readily, and is optimized to run in a constrained environment of a smart contract.
+- [tendermint-light-client](https://github.com/ChorusOne/tendermint-light-client): Implementation of tendermint light client in rust compilable to wasm. The code is heavily inspired from tendermint-rs. It is optimized to run in a constrained environment of a smart contract.
+- [voting](https://github.com/levackt/cosmwasm-examples/tree/master/voting): This is a simple voting contract. It creates a contract to manage token weighted polls, where voters deposit native coins in order to vote.
+
 ## Smart Contract Libraries
 
 - [cosmwasm-std](https://crates.io/crates/cosmwasm-std) ([repo](https://github.com/CosmWasm/cosmwasm/tree/master/packages/std)): The standard library for building CosmWasm smart contracts. Code in this package is compiled into the smart contract.
