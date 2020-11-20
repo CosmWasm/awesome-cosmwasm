@@ -60,6 +60,7 @@ These projects/contracts are developed and maintained by CosmWasm community.
 
 - [substrate-light-client](https://github.com/ChorusOne/substrate-light-client): Implementation of substrate light client in rust compilable to wasm. It is written to be integrated with CosmWasm readily, and is optimized to run in a constrained environment of a smart contract.
 - [tendermint-light-client](https://github.com/ChorusOne/tendermint-light-client): Implementation of tendermint light client in rust compilable to wasm. The code is heavily inspired from tendermint-rs. It is optimized to run in a constrained environment of a smart contract.
+- [CW20 Clawback](https://github.com/tomtau/hackatom): HackAtom V prototype of a "clawback" contract inspired by Bitcoin Vaults
 
 ## Smart Contract Libraries
 
