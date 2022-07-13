@@ -44,17 +44,17 @@ which can be used as the basis for a peer-reviewed audit.
 - [cw3-flex-multisig](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw3-flex-multisig): This builds on cw3-fixed-multisig with a more powerful implementation of the cw3 spec. It is a multisig contract that is backed by a [cw4](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw4) (group) contract, which independently maintains the voter set.
 - [cw4-group](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw4-group): This is a basic implementation of the [cw4 spec](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md). It fulfills all elements of the spec, including the raw query lookups, and it designed to be used as a backing storage for cw3 compliant contracts.
 - [cw4-stake](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw4-stake): This is a second implementation of the cw4 spec. It fufills all elements of the spec, including the raw query lookups, and it is designed to be used as a backing storage for cw3 compliant contracts.
-- [cw721-base](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw721-base): This is a basic implementation of a [cw721 NFT spec](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw721/README.md). This is designed to be deployed as is, or imported into other contracts to easily build cw721-compatible NFTs with custom logic.
+- [cw721-base](https://github.com/CosmWasm/cw-nfts/tree/main/contracts/cw721-base): This is a basic implementation of a [cw721 NFT spec](https://github.com/CosmWasm/cw-nfts/blob/main/packages/cw721/README.md). This is designed to be deployed as is, or imported into other contracts to easily build cw721-compatible NFTs with custom logic.
 
 ### Trivial Contracts
 
 These contracts demonstrate best practices and learning references. Please do not use them in production:
 
-- [name service](https://github.com/CosmWasm/cosmwasm-examples/tree/master/nameservice): Blockchain name service in cosmwasm.
-- [erc20](https://github.com/CosmWasm/cosmwasm-examples/tree/master/erc20): Implementation of Ethereum's [ERC20](https://eips.ethereum.org/EIPS/eip-20) interface.
-- [escrow](https://github.com/CosmWasm/cosmwasm-examples/tree/master/escrow): This is a simple single-use escrow contract.
-- [simple-option](https://github.com/CosmWasm/cosmwasm-examples/tree/master/simple-option): This is a simple financial option contract.
-- [voting](https://github.com/CosmWasm/cosmwasm-examples/tree/master/voting): This is a simple voting contract. It creates a contract to manage token weighted polls, where voters deposit native coins in order to vote. Voters can withdraw their stake, but not while a poll they've participated in is still in progress.
+- [name service](https://github.com/InterWasm/cw-contracts/tree/main/contracts/nameservice): Blockchain name service in CosmWasm.
+- [escrow](https://github.com/InterWasm/cw-contracts/tree/main/contracts/escrow): This is a simple single-use escrow contract.
+- [simple-option](https://github.com/InterWasm/cw-contracts/tree/main/contracts/simple-option): This is a simple financial option contract.
+- [voting](https://github.com/InterWasm/cw-contracts/tree/main/contracts/voting): This is a simple voting contract. It creates a contract to manage token weighted polls, where voters deposit native coins in order to vote. Voters can withdraw their stake, but not while a poll they've participated in is still in progress.
+- [cw20-pot](https://github.com/InterWasm/cw-contracts/tree/main/contracts/cw20-pot) - Basic smart contract using cw20 contract
 
 ## External projects
 
