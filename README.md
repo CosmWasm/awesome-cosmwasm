@@ -75,6 +75,8 @@ These projects/contracts are developed and maintained by CosmWasm community.
 
 - [cosmwasm/rust-optimizer](https://github.com/CosmWasm/rust-optimizer) This is a Docker build with a locked set of dependencies to produce reproducible builds of cosmwasm smart contracts. It also does heavy optimization on the build size, using binary stripping and `wasm-opt`.
 
+- [mandrean/cw-optimizoor](https://github.com/mandrean/cw-optimizoor) A very fast alternative to `rust-optimizer` for local development and testing. Written in Rust, no dependency on Docker.
+
 ## dApps
 
 You can find the Official Confio maintained dApp instances deployed here: [https://dapps.cosmwasm.com](https://dapps.cosmwasm.com)
