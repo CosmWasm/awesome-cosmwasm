@@ -17,10 +17,13 @@ contribute.
 ## General Resources
 
 - [CosmWasm official documentation](https://docs.cosmwasm.com)
-- [CosmWasm framework](https://github.com/CosmWasm/cosmwasm) - you will import
-  this for your contracts, README has useful info and links
-- [CosmWasm template](https://github.com/CosmWasm/cosmwasm-template) - how to
-  start building your own contract
+- [CosmWasm framework](https://github.com/CosmWasm/cosmwasm) - a "core" CosmWasm
+  repo. This includes the core Rust framework for writing a smart contract, a
+  virtual machine that runs smart contracts and is embedded in any chain running
+  them, the IDL format for describing the interface of a smart contract, and
+  more! A few of these are commonly dependencies of smart contracts.
+- [CosmWasm template](https://github.com/CosmWasm/cw-template) - a template for
+  getting an empty smart contract up and running quickly. Instructions included!
 
 ## Smart Contracts
 
@@ -150,13 +153,22 @@ These projects/contracts are developed and maintained by CosmWasm community.
   ([repo](https://github.com/CosmWasm/cosmwasm/tree/master/packages/std)): The
   standard library for building CosmWasm smart contracts. Code in this package
   is compiled into the smart contract.
-- [cosmwasm-storage](https://crates.io/crates/cosmwasm-storage)
-  ([repo](https://github.com/CosmWasm/cosmwasm/tree/master/packages/storage)):
-  Helper methods to reduce boilerplate for storing data types. Easier and more
-  secure persistence layer.
-- [cosmwasm-schema](https://crates.io/crates/cosmwasm-schem)
+- [cw-storage-plus](https://crates.io/crates/cw-storage-plus)
+  ([repo](https://github.com/CosmWasm/cw-storage-plus)): Helper methods to
+  reduce boilerplate for storing data types. Easier and more secure persistence
+  layer.
+- [cosmwasm-schema](https://crates.io/crates/cosmwasm-schema)
   ([repo](https://github.com/CosmWasm/cosmwasm/tree/master/packages/schema)): A
-  dev-dependency for CosmWasm contracts to generate JSON Schema files.
+  dependency for CosmWasm contracts to generate the IDL (interface description)
+  files. These are consumed e.g. by
+  [`ts-codegen`](https://github.com/CosmWasm/ts-codegen) to automagically get a
+  _TypeScript_ client for your contract.
+- [cw-multi-test](https://crates.io/crates/cw-multi-test)
+  ([repo](https://github.com/CosmWasm/cw-multi-test)):
+- [cw-utils](https://crates.io/crates/cw-utils)
+  ([repo](https://github.com/CosmWasm/cw-utils)): A collection of (somewhat
+  random) helpers we found useful when developing `cw-plus` contracts and specs.
+  Available as a library at crates.io!
 
 ## Tooling
 
