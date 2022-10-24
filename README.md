@@ -171,6 +171,8 @@ These projects/contracts are developed and maintained by CosmWasm community.
   a Docker build with a locked set of dependencies to produce reproducible
   builds of cosmwasm smart contracts. It also does heavy optimization on the
   build size, using binary stripping and `wasm-opt`.
+- [cosmology-tech/create-cosmos-app](https://github.com/cosmology-tech/create-cosmos-app) -
+  set up a modern Cosmos app with one command, ready to be iterated on.
 
 ## dApps
 
