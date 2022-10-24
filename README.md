@@ -12,7 +12,7 @@ contribute.
 - [CosmWasm Framework](#cosmwasm-framework)
 - [Smart Contracts](#smart-contracts)
   - [`cw-plus` Specifications and Examples](#cw-plus-specifications-and-examples)
-  - [Trivial Contracts](#trivial-contracts)
+  - [Other Contracts](#other-contracts)
 - [External Projects](#external-projects)
 - [Tooling](#tooling)
 - [dApps](#dapps)
@@ -134,24 +134,19 @@ pieces you might like to use in your project as they are.
   spec and is designed to be deloyed as is, or imported into other contracts to
   easily build cw20-compatible tokens with custom logic.
 
-### Trivial Contracts
+### Other Contracts
 
 These contracts demonstrate best practices and learning references. Please do
 not use them in production:
 
-- [name service](https://github.com/InterWasm/cw-contracts/tree/main/contracts/nameservice):
-  Blockchain name service in CosmWasm.
-- [escrow](https://github.com/InterWasm/cw-contracts/tree/main/contracts/escrow):
-  This is a simple single-use escrow contract.
-- [simple-option](https://github.com/InterWasm/cw-contracts/tree/main/contracts/simple-option):
-  This is a simple financial option contract.
-- [voting](https://github.com/InterWasm/cw-contracts/tree/main/contracts/voting):
-  This is a simple voting contract. It creates a contract to manage token
-  weighted polls, where voters deposit native coins in order to vote. Voters can
-  withdraw their stake, but not while a poll they've participated in is still in
-  progress.
-- [cw20-pot](https://github.com/InterWasm/cw-contracts/tree/main/contracts/cw20-pot) -
-  Basic smart contract using cw20 contract
+- [cw-tokens](https://github.com/CosmWasm/cw-tokens) - a few other
+  [cw20](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw20)
+  (fungible token) contracts.
+- [cw-nfts](https://github.com/CosmWasm/cw-nfts) - non-fungible tokens. Official
+  repository for all work on NFT standards and reference contracts. This is
+  where the
+  [`cw721 spec`](https://github.com/CosmWasm/cw-nfts/tree/main/packages/cw721)
+  lives.
 
 ## External Projects
 
