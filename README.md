@@ -11,7 +11,7 @@ contribute.
 - [General Resources](#general-resources)
 - [CosmWasm Framework](#cosmwasm-framework)
 - [Smart Contracts](#smart-contracts)
-  - [Plus Contracts](#plus-contracts)
+  - [`cw-plus` Specifications and Examples](#cw-plus-specifications-and-examples)
   - [Trivial Contracts](#trivial-contracts)
 - [External Projects](#external-projects)
 - [Tooling](#tooling)
@@ -66,7 +66,7 @@ guidelines on
 [sharing code reviews in a decentralized manner](https://github.com/confio/cosmwasm-template/blob/master/Importing.md)
 which can be used as the basis for a peer-reviewed audit.
 
-### `cw-plus` specifications and examples
+### `cw-plus` Specifications and Examples
 
 [The `cw-plus` repo](https://github.com/CosmWasm/cosmwasm-plus) houses both
 protocol specifications and their reference implementations. These
@@ -75,6 +75,7 @@ pieces you might like to use in your project as they are.
 
 <details>
 <summary>DETAILS</summary>
+
 #### Specifications
 
 - [cw1](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw1) -
