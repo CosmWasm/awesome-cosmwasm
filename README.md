@@ -66,10 +66,32 @@ guidelines on
 [sharing code reviews in a decentralized manner](https://github.com/confio/cosmwasm-template/blob/master/Importing.md)
 which can be used as the basis for a peer-reviewed audit.
 
-### Plus Contracts
+### `cw-plus` specifications and examples
 
-[The plus contracts](https://github.com/CosmWasm/cosmwasm-plus) are designed
-with a cosmwasm-specific spec and focus on composability.
+[The `cw-plus` repo](https://github.com/CosmWasm/cosmwasm-plus) houses both
+protocol specifications and their reference implementations. These
+implementations are meant both as examples of production-ready contracts and
+pieces you might like to use in your project as they are.
+
+<details>
+<summary>DETAILS</summary>
+#### Specifications
+
+- [cw1](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw1) -
+  proxy contracts that are meant to forward a message (probably after checking
+  the sender against some form of access control), this time with the contract
+  as the sender.
+- [cw2](https://github.com/CosmWasm/cw-plus/tree/main/packages/cw2) - contract
+  metadata (name and version) that can be inspected directly, without querying
+  the contract.
+- [cw3](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md) -
+  multisig and voting.
+- [cw4](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md) -
+  group membership management with weights.
+- [cw20](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw20) -
+  fungible token.
+
+#### Reference implementations
 
 - [cw1-whitelist](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw1-whitelist)
   by [ethanfrey](https://github.com/ethanfrey): This may be the simplest
@@ -92,25 +114,6 @@ with a cosmwasm-specific spec and focus on composability.
   [cw20](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw20/README.md)
   spec and is designed to be deloyed as is, or imported into other contracts to
   easily build cw20-compatible tokens with custom logic.
-- [cw20-bonding](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw20-bonding)
-  by [ethanfrey](https://github.com/ethanfrey): Builds on
-  [cw20](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw20)
-  interface. Serves three purposes: A usable and extensible contract for
-  arbitrary bonding curves, demonstration of how to extend cw20-base to add
-  extra functionality and, demonstration of the
-  [Receiver interface](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw20/README.md#receiver)
-- [cw20-atomic-swap](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw20-atomic-swap):
-  This is a contract that allows users to execute atomic swaps. It implements
-  one side of an atomic swap. The other side can be realized by an equivalent
-  contract in the same blockchain or, typically, on a different blockchain.
-- [cw20-escrow](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw20-escrow)
-  by [ethanfrey](https://github.com/ethanfrey): Escrow meta-contract that allows
-  multiple users to create independent escrows.
-- [cw20-staking](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw20-staking)
-  by [ethanfrey](https://github.com/ethanfrey): This is a sample contract that
-  releases a minimal form of staking derivatives. This is to be used for
-  integration tests and as a foundation for other to build more complex logic
-  upon.
 - [cw3-fixed-multisig](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw3-fixed-multisig):
   This is a simple implementation of the
   [cw3 spec](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md).
@@ -128,14 +131,10 @@ with a cosmwasm-specific spec and focus on composability.
   It fulfills all elements of the spec, including the raw query lookups, and it
   designed to be used as a backing storage for cw3 compliant contracts.
 - [cw4-stake](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw4-stake):
-  This is a second implementation of the cw4 spec. It fufills all elements of
-  the spec, including the raw query lookups, and it is designed to be used as a
-  backing storage for cw3 compliant contracts.
-- [cw721-base](https://github.com/CosmWasm/cw-nfts/tree/main/contracts/cw721-base):
-  This is a basic implementation of a
-  [cw721 NFT spec](https://github.com/CosmWasm/cw-nfts/blob/main/packages/cw721/README.md).
-  This is designed to be deployed as is, or imported into other contracts to
-  easily build cw721-compatible NFTs with custom logic.
+This is a second implementation of the cw4 spec. It fufills all elements of the
+spec, including the raw query lookups, and it is designed to be used as a
+backing storage for cw3 compliant contracts.
+</details>
 
 ### Trivial Contracts
 
