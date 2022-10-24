@@ -108,13 +108,6 @@ pieces you might like to use in your project as they are.
   a set of admins (typically 1) which have full control of the account. However,
   you can then grant a number of accounts allowances to send native tokens from
   this account.
-- [cw20-base](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw20-base)
-  by [ethanfrey](https://github.com/ethanfrey): Basic implementation of a
-  [cw20](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw20)
-  contract. It implements the
-  [cw20](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw20/README.md)
-  spec and is designed to be deloyed as is, or imported into other contracts to
-  easily build cw20-compatible tokens with custom logic.
 - [cw3-fixed-multisig](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw3-fixed-multisig):
   This is a simple implementation of the
   [cw3 spec](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md).
@@ -132,9 +125,18 @@ pieces you might like to use in your project as they are.
   It fulfills all elements of the spec, including the raw query lookups, and it
   designed to be used as a backing storage for cw3 compliant contracts.
 - [cw4-stake](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw4-stake):
-This is a second implementation of the cw4 spec. It fufills all elements of the
-spec, including the raw query lookups, and it is designed to be used as a
-backing storage for cw3 compliant contracts.
+  This is a second implementation of the
+  [cw4 spec](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md).
+  It fufills all elements of the spec, including the raw query lookups, and it
+  is designed to be used as a backing storage for cw3 compliant contracts.
+- [cw20-base](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw20-base)
+  by [ethanfrey](https://github.com/ethanfrey): Basic implementation of a
+  [cw20](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw20)
+  contract. It implements the
+  [cw20](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw20/README.md)
+  spec and is designed to be deloyed as is, or imported into other contracts to
+  easily build cw20-compatible tokens with custom logic.
+
 </details>
 
 ### Trivial Contracts
