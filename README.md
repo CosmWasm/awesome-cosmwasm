@@ -73,9 +73,6 @@ protocol specifications and their reference implementations. These
 implementations are meant both as examples of production-ready contracts and
 pieces you might like to use in your project as they are.
 
-<details>
-<summary>DETAILS</summary>
-
 #### Specifications
 
 - [cw1](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw1) -
@@ -136,8 +133,6 @@ pieces you might like to use in your project as they are.
   [cw20](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw20/README.md)
   spec and is designed to be deloyed as is, or imported into other contracts to
   easily build cw20-compatible tokens with custom logic.
-
-</details>
 
 ### Trivial Contracts
 
