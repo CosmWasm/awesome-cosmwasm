@@ -174,26 +174,5 @@ These projects/contracts are developed and maintained by CosmWasm community.
 
 ## dApps
 
-You can find the Official Confio maintained dApp instances deployed here:
-[https://dapps.cosmwasm.com](https://dapps.cosmwasm.com)
-
-- Name service:
-  [https://dapps.cosmwasm.com/names](https://dapps.cosmwasm.com/names)
-- Native wallet:
-  [https://dapps.cosmwasm.com/wallet](https://dapps.cosmwasm.com/wallet)
-- CW20 wallet:
-  [https://dapps.cosmwasm.com/cw20-wallet](https://dapps.cosmwasm.com/cw20-wallet)
-- CW20 staking service:
-  [https://dapps.cosmwasm.com/stakes](https://dapps.cosmwasm.com/stakes)
-
-The code is in the packages directory of the monorepo:
-[https://github.com/CosmWasm/dApps/tree/master/packages](https://github.com/CosmWasm/dApps/tree/master/packages)
-
-- Name service:
-  [https://github.com/CosmWasm/dApps/tree/master/packages/name-service](https://github.com/CosmWasm/dApps/tree/master/packages/name-service)
-- Native wallet:
-  [https://github.com/CosmWasm/dApps/tree/master/packages/wallet](https://github.com/CosmWasm/dApps/tree/master/packages/wallet)
-- CW20 wallet:
-  [https://github.com/CosmWasm/dApps/tree/master/packages/cw20-wallet](https://github.com/CosmWasm/dApps/tree/master/packages/cw20-wallet)
-- CW20 staking service:
-  [https://github.com/CosmWasm/dApps/tree/master/packages/staking-service](https://github.com/CosmWasm/dApps/tree/master/packages/staking-service)
+Looking for dApps to feature. See
+[#19](https://github.com/CosmWasm/cw-awesome/issues/19).
