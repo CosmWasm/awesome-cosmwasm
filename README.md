@@ -19,7 +19,8 @@ contribute.
 
 ## General Resources
 
-- [CosmWasm official documentation](https://docs.cosmwasm.com)
+- [The CosmWasm book](https://book.cosmwasm.com/) - a step-by-step guide to
+  writing CosmWasm smart contracts.
 - [CosmWasm framework](https://github.com/CosmWasm/cosmwasm) - a "core" CosmWasm
   repo. This includes the core Rust framework for writing a smart contract, a
   virtual machine that runs smart contracts and is embedded in any chain running
