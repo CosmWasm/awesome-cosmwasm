@@ -138,7 +138,9 @@ pieces you might like to use in your project as they are.
 ### Other Contracts
 
 These contracts demonstrate best practices and learning references. Please do
-not use them in production:
+not use them in production as is. You are welcome to fork them, and
+independently review, refine and audit them, using them as a basis for your
+protocol. Or just as inspiration
 
 - [cw-tokens](https://github.com/CosmWasm/cw-tokens) - a few other
   [cw20](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw20)
