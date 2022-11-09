@@ -172,8 +172,13 @@ These projects/contracts are developed and maintained by CosmWasm community.
   build size, using binary stripping and `wasm-opt`.
 - [cosmology-tech/create-cosmos-app](https://github.com/cosmology-tech/create-cosmos-app) -
   set up a modern Cosmos app with one command, ready to be iterated on.
-
-- [mandrean/cw-optimizoor](https://github.com/mandrean/cw-optimizoor) A very fast alternative to `rust-optimizer` for local development and testing. Written in Rust, no dependency on Docker.
+- [mandrean/cw-optimizoor](https://github.com/mandrean/cw-optimizoor) A very
+  fast alternative to `rust-optimizer` for local development and testing.
+  Written in Rust, no dependency on Docker.
+- [cosmwasm devtools](https://cosmwasm.tools/)
+  ([repo](https://github.com/aswever/cosmwasm-devtools)): A web-based console
+  for interacting with CosmWasm smart contracts deployed locally or remotely.
+  Can use Keplr account or generate new addresses as needed.
 
 ## dApps
 
