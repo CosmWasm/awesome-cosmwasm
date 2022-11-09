@@ -173,6 +173,8 @@ These projects/contracts are developed and maintained by CosmWasm community.
 - [cosmology-tech/create-cosmos-app](https://github.com/cosmology-tech/create-cosmos-app) -
   set up a modern Cosmos app with one command, ready to be iterated on.
 
+- [mandrean/cw-optimizoor](https://github.com/mandrean/cw-optimizoor) A very fast alternative to `rust-optimizer` for local development and testing. Written in Rust, no dependency on Docker.
+
 ## dApps
 
 Looking for dApps to feature. See
