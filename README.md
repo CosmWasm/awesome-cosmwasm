@@ -10,6 +10,7 @@ contribute.
 
 - [General Resources](#general-resources)
 - [CosmWasm Framework](#cosmwasm-framework)
+- [Smart Contract Libraries](#smart-contract-libraries)
 - [Smart Contracts](#smart-contracts)
   - [`cw-plus` Specifications and Examples](#cw-plus-specifications-and-examples)
   - [Other Contracts](#other-contracts)
@@ -47,10 +48,19 @@ contribute.
   _TypeScript_ client for your contract.
 - [cw-multi-test](https://crates.io/crates/cw-multi-test)
   ([repo](https://github.com/CosmWasm/cw-multi-test)):
+
+## Smart Contract Libraries
+
 - [cw-utils](https://crates.io/crates/cw-utils)
   ([repo](https://github.com/CosmWasm/cw-utils)): A collection of (somewhat
   random) helpers we found useful when developing `cw-plus` contracts and specs.
   Available as a library at crates.io!
+- [cw-coins](https://crates.io/crates/cw-coins)
+  ([repo](https://github.com/steak-enjoyers/cw-plus-plus)): A helper for
+  managing multiple coins in a smart contract.
+- [cw-item-set](https://crates.io/crates/cw-item-set)
+  ([repo](https://github.com/steak-enjoyers/cw-plus-plus)): A `HashSet`
+  equivalent (set of unique items) that can be stored in smart contract storage.
 
 ## Smart Contracts
 
