@@ -64,8 +64,7 @@ pieces you might like to use in your project as they are.
 - [cw1](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw1) - Proxy contracts that are meant to forward a message, with the contract as the sender by default.
 - [cw2](https://github.com/CosmWasm/cw-plus/tree/main/packages/cw2) - Specification for migrating or inspecting smart contract metadata such as the name and the version without querying the contract.
 - [cw3](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md) - Voting and multisig contract.
-- [cw4](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md) -
-  Group membership management contract with weights.
+- [cw4](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md) - Group membership management contract with weights.
 - [cw20](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw20) - Fungible token loosely based on Ethereum's ERC20 standard with additional changes.
 
 #### Reference implementations
@@ -73,7 +72,7 @@ pieces you might like to use in your project as they are.
 
 - [cw1-whitelist](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw1-whitelist) - A simple implementation of cw1 specification using a whitelist of addresses for admins that are defined upon creation. It contains a set of admins that are defined upon creation.
 - [cw1-subkeys](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw1-subkeys) - A similar implementation of cw-1 whitelist. However, subkeys allow admins to grant a number of accounts allowances for them to transfer native tokens.
-- [cw3-fixed-multisig](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw3-fixed-multisig): A simple implementation of the cw3 specification using multisig with a fixed set of addresses created upon initialization. Each address may have the same weight (K of N) or some may have extra voting power.
+- [cw3-fixed-multisig](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw3-fixed-multisig) - A simple implementation of the cw3 specification using multisig with a fixed set of addresses created upon initialization. Each address may have the same weight (K of N) or some may have extra voting power.
 - [cw3-flex-multisig](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw3-flex-multisig) - A more advanced implementation of the cw-fixed-mulsitig backed by [cw4](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw4), which independently maintains the voter set.
 - [cw4-group](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw4-group) - A simple implementation of the cw4 spec fulfilling all elements of the spec, including raw query lookups, and it is designed to be used as backing storage for cw3 compliant contracts.
 - [cw4-stake](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw4-stake) - An alternative cw4-group implementation that membership and weight are based on the staked token amount.
@@ -95,30 +94,16 @@ protocol. Or just as inspiration
 
 These projects/contracts are developed and maintained by the CosmWasm community.
 
-- [DA0-DA0/dao-contracts](https://github.com/DA0-DA0/dao-contracts) - DAO DAO is
-  the leading software to build your own DAO on CosmWasm chains, quickly
-  surpassing Aragon in functionality
-- [mars-protocol/v1-core](https://github.com/mars-protocol/v1-core) - Delphi's
-  "Mars Protocol" is the leading lending protocol on Terra and soon launching on
-  Osmosis
-- [public-awesome/launchpad](https://github.com/public-awesome/launchpad) -
-  Stargaze provides contracts to easily create and manage new NFT collections.
+- [DA0-DA0/dao-contracts](https://github.com/DA0-DA0/dao-contracts) - DAO DAO is the leading software to build your own DAO on CosmWasm chains, quickly surpassing Aragon in functionality.
+- [mars-protocol/v1-core](https://github.com/mars-protocol/v1-core) - Delphi's "Mars Protocol" is the leading lending protocol on Terra and soon launching on Osmosis.
+- [public-awesome/launchpad](https://github.com/public-awesome/launchpad) - Stargaze provides contracts to easily create and manage new NFT collections.
 
 ## Tooling
 
-- [cosmwasm/rust-optimizer](https://github.com/CosmWasm/rust-optimizer) - This is
-  a Docker build with a locked set of dependencies to produce reproducible
-  builds of cosmwasm smart contracts. It also does heavy optimization on the
-  build size, using binary stripping and `wasm-opt`.
-- [cosmology-tech/create-cosmos-app](https://github.com/cosmology-tech/create-cosmos-app) -
-  set up a modern Cosmos app with one command, ready to be iterated on.
-- [mandrean/cw-optimizoor](https://github.com/mandrean/cw-optimizoor) - A very
-  fast alternative to `rust-optimizer` for local development and testing.
-  Written in Rust, with no dependency on Docker.
-- [cosmwasm devtools](https://cosmwasm.tools/)
-  ([repo](https://github.com/aswever/cosmwasm-devtools)) -  A web-based console
-  for interacting with CosmWasm smart contracts deployed locally or remotely.
-  Can use Keplr account or generate new addresses as needed.
+- [cosmwasm/rust-optimizer](https://github.com/CosmWasm/rust-optimizer) - This is a Docker build with a locked set of dependencies to produce reproducible builds of cosmwasm smart contracts. It also does heavy optimization on the build size, using binary stripping and `wasm-opt`.
+- [cosmology-tech/create-cosmos-app](https://github.com/cosmology-tech/create-cosmos-app) - Set up a modern Cosmos app with one command, ready to be iterated on.
+- [mandrean/cw-optimizoor](https://github.com/mandrean/cw-optimizoor) - A very fast alternative to `rust-optimizer` for local development and testing. Written in Rust, with no dependency on Docker.
+- [cosmwasm devtools](https://github.com/aswever/cosmwasm-devtools) -  A web-based console for interacting with CosmWasm smart contracts deployed locally or remotely. Can use Keplr account or generate new addresses as needed. Visit the tool [here](https://cosmwasm.tools/).
 - [cosmwasm/ts-codegen](https://github.com/CosmWasm/ts-codegen) - Convert your CosmWasm smart contracts into dev-friendly TypeScript classes so you can focus on shipping code.
 
 ## dApps
