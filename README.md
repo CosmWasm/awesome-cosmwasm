@@ -28,14 +28,14 @@ contribute.
 
 - [cosmwasm-std](https://github.com/CosmWasm/cosmwasm/tree/master/packages/std) - The standard library for writing and building CosmWasm smart contracts. [![cosmwasm-std on crates.io](https://img.shields.io/crates/v/cosmwasm-std.svg)](https://crates.io/crates/cosmwasm-std)
 - [cw-storage-plus](https://github.com/CosmWasm/cw-storage-plus) - Helper methods to reduce boilerplate for storing data types for an easier and more secure persistence layer. [![cw-storage-plus on crates.io](https://img.shields.io/crates/v/cw-storage-plus.svg)](https://crates.io/crates/cw-storage-plus)
-- [cosmwasm-schema](https://github.com/CosmWasm/cosmwasm/tree/master/packages/schema) - A dependency for CosmWasm contracts to generate the IDL (interface description) files. These are consumed e.g. by [`ts-codegen`](https://github.com/CosmWasm/ts-codegen) to automagically get a _TypeScript_ client for your contract. [![cosmwasm-schema on crates.io](https://img.shields.io/crates/v/cosmwasm-schema.svg)](https://crates.io/crates/cosmwasm-schema)
+- [cosmwasm-schema](https://github.com/CosmWasm/cosmwasm/tree/master/packages/schema) - A dependency for CosmWasm contracts to generate the IDL (interface description) files. These are consumed e.g. by `ts-codegen` to automagically get a _TypeScript_ client for your contract. [![cosmwasm-schema on crates.io](https://img.shields.io/crates/v/cosmwasm-schema.svg)](https://crates.io/crates/cosmwasm-schema)
 - [cw-multi-test](https://github.com/CosmWasm/cw-multi-test) - Test helpers for multi-contract interactions. [![cw-multi-test on crates.io](https://img.shields.io/crates/v/cw-multi-test.svg)](https://crates.io/crates/cw-multi-test)
 
 ## Smart Contract Libraries
 
 - [cw-utils](https://github.com/CosmWasm/cw-utils) - A collection of helpers we found useful when developing `cw-plus` contracts and specs. [![cw-utils on crates.io](https://img.shields.io/crates/v/cw-utils.svg)](https://crates.io/crates/cw-utils)
-- [cw-coins](https://github.com/steak-enjoyers/cw-plus-plus) - A helper for managing multiple coins in a smart contract. [![cw-coins on crates.io](https://img.shields.io/crates/v/cw-coins.svg)](https://crates.io/crates/cw-coins)
-- [cw-item-set](https://github.com/steak-enjoyers/cw-plus-plus) - A `HashSet` equivalent (set of unique items) that can be stored in smart contract storage. [![cw-item-set on crates.io](https://img.shields.io/crates/v/cw-item-set.svg)](https://crates.io/crates/cw-item-set)
+- [cw-coins](https://github.com/steak-enjoyers/cw-plus-plus/tree/main/packages/coins) - A helper for managing multiple coins in a smart contract. [![cw-coins on crates.io](https://img.shields.io/crates/v/cw-coins.svg)](https://crates.io/crates/cw-coins)
+- [cw-item-set](https://github.com/steak-enjoyers/cw-plus-plus/tree/main/packages/item-set) - A `HashSet` equivalent (set of unique items) that can be stored in smart contract storage. [![cw-item-set on crates.io](https://img.shields.io/crates/v/cw-item-set.svg)](https://crates.io/crates/cw-item-set)
 
 ## Smart Contracts
 
@@ -63,7 +63,7 @@ pieces you might like to use in your project as they are.
 
 - [cw1](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw1) - Proxy contracts that are meant to forward a message, with the contract as the sender by default.
 - [cw2](https://github.com/CosmWasm/cw-plus/tree/main/packages/cw2) - Specification for migrating or inspecting smart contract metadata such as the name and the version without querying the contract.
-- [cw3](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md) - Voting and multisig contract.
+- [cw3](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw3/README.md) - Voting and multisig contract.
 - [cw4](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md) - Group membership management contract with weights.
 - [cw20](https://github.com/CosmWasm/cosmwasm-plus/tree/master/packages/cw20) - Fungible token loosely based on Ethereum's ERC20 standard with additional changes.
 
