@@ -25,6 +25,7 @@ Please ensure your pull request adheres to the following guidelines:
 - Make sure your text editor is set to remove trailing whitespace.
 - The pull request and commit should have a useful title.
 - The body of your commit message should contain a link to the repository.
+- Run awesome-lint and fix any errors.
 
 Thank you for your suggestions!
 
