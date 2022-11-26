@@ -190,6 +190,8 @@ These projects/contracts are developed and maintained by CosmWasm community.
   for interacting with CosmWasm smart contracts deployed locally or remotely.
   Can use Keplr account or generate new addresses as needed.
 - [cosmwasm/ts-codegen](https://github.com/CosmWasm/ts-codegen) - Convert your CosmWasm smart contracts into dev-friendly TypeScript classes so you can focus on shipping code.
+- [Terran-One/cosmwasm-vm-js](https://github.com/terran-one/cosmwasm-vm-js) - A JavaScript runtime for running CosmWasm contracts in Node.js or the browser.
+- [CWSimulate](https://cwsimulate.terran.one) - An online playground / simulation environment for interacting with CosmWasm contract binaries without a blockchain. Can be used for execution visualization / interactive debugging with time-traveling navigation.
 
 ## dApps
 
