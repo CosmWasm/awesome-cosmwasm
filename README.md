@@ -173,6 +173,10 @@ These projects/contracts are developed and maintained by CosmWasm community.
   Osmosis
 - [public-awesome/launchpad](https://github.com/public-awesome/launchpad) -
   Stargaze provides contracts to easily create and manage new NFT collections.
+- [CronCats/cw-croncat](https://github.com/CronCats/cw-croncat) - Croncat provides a general purpose, 
+  fully autonomous network that enables scheduled function calls for blockchain contract execution. 
+  It allows any application to schedule logic to get executed in the future, once or many times, 
+  triggered by an approved “agent,” in an economically stable format.
 
 ## Tooling
 
