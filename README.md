@@ -197,6 +197,8 @@ These projects/contracts are developed and maintained by CosmWasm community.
 - [Terran-One/cosmwasm-vm-js](https://github.com/terran-one/cosmwasm-vm-js) - A JavaScript runtime for running CosmWasm contracts in Node.js or the browser.
 - [CWSimulate](https://cwsimulate.terran.one) - An online playground / simulation environment for interacting with CosmWasm contract binaries without a blockchain. Can be used for execution visualization / interactive debugging with time-traveling navigation.
 - [cosmy-wasmy](https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy) - A vscode extension to interact with CosmWasm smart contracts on devnet or testnet chains. Allows to query, execute, upload contracts as well as provide code completion snippets. 
+- [cosmwander](https://cosmwander.xyz) - Explore on-chain cosmwasm contracts and discover their message scheme. 
+- [CWSimulate](https://cwsimulate.terran.one) -  An online simulated playground / visual tool for interacting with cosmwasm smart contracts. 
 
 
 ## dApps
