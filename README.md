@@ -195,6 +195,8 @@ These projects/contracts are developed and maintained by CosmWasm community.
   Can use Keplr account or generate new addresses as needed.
 - [cosmwasm/ts-codegen](https://github.com/CosmWasm/ts-codegen) - Convert your CosmWasm smart contracts into dev-friendly TypeScript classes so you can focus on shipping code.
 - [cosmy-wasmy](https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy) - A vscode extension to interact with CosmWasm smart contracts on devnet or testnet chains. Allows to query, execute, upload contracts as well as provide code completion snippets. 
+- [cosmwander](https://cosmwander.xyz) - Explore on-chain cosmwasm contracts and discover their message scheme. 
+- [CWSimulate](https://cwsimulate.terran.one) -  An online simulated playground / visual tool for interacting with cosmwasm smart contracts. 
 
 ## dApps
 
