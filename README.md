@@ -198,6 +198,7 @@ These projects/contracts are developed and maintained by CosmWasm community.
 - [CWSimulate](https://cwsimulate.terran.one) - An online playground / simulation environment for interacting with CosmWasm contract binaries without a blockchain. Can be used for execution visualization / interactive debugging with time-traveling navigation.
 - [cosmy-wasmy](https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy) - A vscode extension to interact with CosmWasm smart contracts on devnet or testnet chains. Allows to query, execute, upload contracts as well as provide code completion snippets. 
 - [cosmwander](https://cosmwander.xyz) - Explore on-chain cosmwasm contracts and discover their message scheme. 
+- [Abstract-OS/BOOT](https://github.com/Abstract-OS/BOOT) - A CosmWasm smart-contract scripting library to easily test and deploy contracts in Rust. 
 
 
 ## dApps
