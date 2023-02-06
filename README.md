@@ -177,6 +177,8 @@ These projects/contracts are developed and maintained by CosmWasm community.
   fully autonomous network that enables scheduled function calls for blockchain contract execution. 
   It allows any application to schedule logic to get executed in the future, once or many times, 
   triggered by an approved “agent,” in an economically stable format.
+- [astroport-fi/astroport-core](https://github.com/astroport-fi/astroport-core) - Astroport is
+  a multi pool type automated market-maker (AMM) protocol, it is one of the leading DEX on Terra.
 
 ## Tooling
 
