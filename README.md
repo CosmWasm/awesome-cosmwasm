@@ -198,7 +198,7 @@ These projects/contracts are developed and maintained by CosmWasm community.
 - [CWSimulate](https://cwsimulate.terran.one) - An online playground / simulation environment for interacting with CosmWasm contract binaries without a blockchain. Can be used for execution visualization / interactive debugging with time-traveling navigation.
 - [cosmy-wasmy](https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy) - A vscode extension to interact with CosmWasm smart contracts on devnet or testnet chains. Allows to query, execute, upload contracts as well as provide code completion snippets. 
 - [cosmwander](https://cosmwander.xyz) - Explore on-chain cosmwasm contracts and discover their message scheme. 
-
+- [WELLDONE Code](https://docs.welldonestudio.io/code/getting-started) - Remix IDE plugin that supports CosmWasm. It is a web-based IDE that allows developers to deploy smart contracts and execute functions through a browser wallet. It supports its own compiler server, so developers do not need to set up a development environment.
 
 ## dApps
 
