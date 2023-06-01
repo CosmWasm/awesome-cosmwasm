@@ -200,6 +200,9 @@ These projects/contracts are developed and maintained by CosmWasm community.
 - [cosmwander](https://cosmwander.xyz) - Explore on-chain cosmwasm contracts and discover their message scheme. 
 - [WELLDONE Code](https://docs.welldonestudio.io/code/getting-started) - Remix IDE plugin that supports CosmWasm. It is a web-based IDE that allows developers to deploy smart contracts and execute functions through a browser wallet. It supports its own compiler server, so developers do not need to set up a development environment.
 - [Cosmwasm Studio](https://github.com/oraichain/smart-studio) - Monaco IDE that supports CosmWasm. It allows developers to code, build smart contracts and execute functions through a simulation. It supports its own rust-analyzer in Web Assembly so developers can code it the same as local VS Code.
+- [cosmwasm-tools](https://github.com/oraichain/cosmwasm-tools) - A super
+  fast and cross-platform alternative to `rust-optimizer` that produces optimized wasm files.
+  Written in Typescript, supporting watch mode, parallel builds, and ts-codegen sharing common dependencies.
 
 ## dApps
 
