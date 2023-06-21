@@ -177,6 +177,7 @@ These projects/contracts are developed and maintained by CosmWasm community.
   fully autonomous network that enables scheduled function calls for blockchain contract execution. 
   It allows any application to schedule logic to get executed in the future, once or many times, 
   triggered by an approved “agent,” in an economically stable format.
+- [KompleTeam/komple-framework](https://github.com/KompleTeam/komple-framework) - Komple Framework is a modular, configurable and scalable smart contract framework for building and deploying NFT based applications on the Cosmos Network. It is designed to be a one-stop solution for developers looking to create NFT based projects and dApps with ease.
 
 ## Tooling
 
