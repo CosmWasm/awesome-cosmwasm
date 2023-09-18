@@ -177,6 +177,11 @@ These projects/contracts are developed and maintained by CosmWasm community.
   fully autonomous network that enables scheduled function calls for blockchain contract execution. 
   It allows any application to schedule logic to get executed in the future, once or many times, 
   triggered by an approved “agent,” in an economically stable format.
+- [srdtrk/cw-ica-controller](https://github.com/srdtrk/cw-ica-controller) -
+  A controller contract for the Interchain Accounts
+  ([ICS-27](https://github.com/cosmos/ibc/blob/main/spec/app/ics-027-interchain-accounts/README.md))
+  spec. It allows users to create and manage interchain accounts on host chains that support the golang
+  implementation of ICS-27. It is meant to be used as a learning reference and not for production.
 
 ## Tooling
 
