@@ -182,6 +182,8 @@ These projects/contracts are developed and maintained by CosmWasm community.
   ([ICS-27](https://github.com/cosmos/ibc/blob/main/spec/app/ics-027-interchain-accounts/README.md))
   spec. It allows users to create and manage interchain accounts on host chains that support the golang
   implementation of ICS-27. It is meant to be used as a learning reference and not for production.
+- [AbstractSDK/abstract](https://github.com/AbstractSDK/abstract) - Abstract is
+  a development platform with a focus on code reusability and application sovereignty. 
 
 ## Tooling
 
@@ -209,6 +211,8 @@ These projects/contracts are developed and maintained by CosmWasm community.
   fast and cross-platform alternative to `rust-optimizer` that produces optimized wasm files.
   Written in Typescript, supporting watch mode, parallel builds, and ts-codegen sharing common dependencies.
 - [beaker](https://github.com/osmosis-labs/beaker) - A toolkit that simplifies interactions with CosmWasm smart contracts which offers scaffolding, deployment, upgrades, execution, querying, an interactive console, and task scripting capabilities.
+- [cw-orchestrator](https://github.com/AbstractSDK/cw-orchestrator) - A Rust-oriented CosmWasm scripting library that features a clean and unified syntax for interacting
+  with contracts in any environment.
  
 ## dApps
 
