@@ -169,8 +169,7 @@ These projects/contracts are developed and maintained by CosmWasm community.
   the leading software to build your own DAO on CosmWasm chains, quickly
   surpassing Aragon in functionality
 - [mars-protocol/v1-core](https://github.com/mars-protocol/v1-core) - Delphi's
-  "Mars Protocol" is the leading lending protocol on Terra and soon launching on
-  Osmosis
+  "Mars Protocol" is the leading lending protocol on Terra, Osmosis, and soon launching on Neutron.
 - [public-awesome/launchpad](https://github.com/public-awesome/launchpad) -
   Stargaze provides contracts to easily create and manage new NFT collections.
 - [CronCats/cw-croncat](https://github.com/CronCats/cw-croncat) - Croncat provides a general purpose, 
