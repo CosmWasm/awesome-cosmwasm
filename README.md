@@ -203,7 +203,8 @@ These projects/contracts are developed and maintained by CosmWasm community.
 - [cosmwasm-tools](https://github.com/oraichain/cosmwasm-tools) - A super
   fast and cross-platform alternative to `rust-optimizer` that produces optimized wasm files.
   Written in Typescript, supporting watch mode, parallel builds, and ts-codegen sharing common dependencies.
-
+- [beaker](https://github.com/osmosis-labs/beaker) - A toolkit that simplifies interactions with CosmWasm smart contracts which offers scaffolding, deployment, upgrades, execution, querying, an interactive console, and task scripting capabilities.
+ 
 ## dApps
 
 Looking for dApps to feature. See
