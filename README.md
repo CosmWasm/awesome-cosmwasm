@@ -29,6 +29,7 @@ contribute.
   more! A few of these are commonly dependencies of smart contracts.
 - [CosmWasm template](https://github.com/CosmWasm/cw-template) - a template for
   getting an empty smart contract up and running quickly. Instructions included!
+- [AREA-52](https://area-52.io/) - an interactive tutorial to learm CosmWasm smart contracts.
 
 ## CosmWasm Framework
 
