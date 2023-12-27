@@ -48,6 +48,8 @@ contribute.
   _TypeScript_ client for your contract.
 - [cw-multi-test](https://crates.io/crates/cw-multi-test)
   ([repo](https://github.com/CosmWasm/cw-multi-test)):
+- [test-tube](https://github.com/osmosis-labs/test-tube): library for building testing environments,
+  allows to test smart contract logic against the actual Cosmos SDK chain's logic
 
 ## Smart Contract Libraries
 
