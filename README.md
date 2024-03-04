@@ -180,7 +180,7 @@ These projects/contracts are developed and maintained by CosmWasm community.
   A controller contract for the Interchain Accounts
   ([ICS-27](https://github.com/cosmos/ibc/blob/main/spec/app/ics-027-interchain-accounts/README.md))
   spec. It allows users to create and manage interchain accounts on host chains that support the golang
-  implementation of ICS-27. It is meant to be used as a learning reference and not for production.
+  implementation of ICS-27.
 - [AbstractSDK/abstract](https://github.com/AbstractSDK/abstract) - Abstract is
   a development platform with a focus on code reusability and application sovereignty. 
 
@@ -212,6 +212,7 @@ These projects/contracts are developed and maintained by CosmWasm community.
 - [beaker](https://github.com/osmosis-labs/beaker) - A toolkit that simplifies interactions with CosmWasm smart contracts which offers scaffolding, deployment, upgrades, execution, querying, an interactive console, and task scripting capabilities.
 - [cw-orchestrator](https://github.com/AbstractSDK/cw-orchestrator) - A Rust-oriented CosmWasm scripting library that features a clean and unified syntax for interacting
   with contracts in any environment.
+- [srdtrk/go-codegen](https://github.com/srdtrk/go-codegen) - A Go code generator for CosmWasm contracts. The quickest way to generate Go code for your CosmWasm smart contracts.
  
 ## dApps
 
