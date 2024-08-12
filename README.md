@@ -36,6 +36,9 @@ contribute.
   ([repo](https://github.com/CosmWasm/cosmwasm/tree/master/packages/std)): The
   standard library for building CosmWasm smart contracts. Code in this package
   is compiled into the smart contract.
+- [storey](https://crates.io/crates/storey)([repo](https://github.com/CosmWasm/storey)):
+  The storage accessing helpers to make it easy to handle Smart Contract storage, a
+  fresh alternative for cw-storage-plus. Designed for better performance.
 - [cw-storage-plus](https://crates.io/crates/cw-storage-plus)
   ([repo](https://github.com/CosmWasm/cw-storage-plus)): Helper methods to
   reduce boilerplate for storing data types. Easier and more secure persistence
