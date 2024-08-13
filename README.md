@@ -29,6 +29,7 @@ contribute.
   more! A few of these are commonly dependencies of smart contracts.
 - [CosmWasm template](https://github.com/CosmWasm/cw-template) - a template for
   getting an empty smart contract up and running quickly. Instructions included!
+- [AREA-52](https://area-52.io/) - an interactive tutorial to learn CosmWasm smart contracts.
 
 ## CosmWasm Framework
 
@@ -169,8 +170,7 @@ These projects/contracts are developed and maintained by CosmWasm community.
   the leading software to build your own DAO on CosmWasm chains, quickly
   surpassing Aragon in functionality
 - [mars-protocol/v1-core](https://github.com/mars-protocol/v1-core) - Delphi's
-  "Mars Protocol" is the leading lending protocol on Terra and soon launching on
-  Osmosis
+  "Mars Protocol" is the leading lending protocol on Terra, Osmosis, and soon launching on Neutron.
 - [public-awesome/launchpad](https://github.com/public-awesome/launchpad) -
   Stargaze provides contracts to easily create and manage new NFT collections.
 - [CronCats/cw-croncat](https://github.com/CronCats/cw-croncat) - Croncat provides a general purpose, 
@@ -179,6 +179,13 @@ These projects/contracts are developed and maintained by CosmWasm community.
   triggered by an approved “agent,” in an economically stable format.
 - [astroport-fi/astroport-core](https://github.com/astroport-fi/astroport-core) - Astroport is
   a multi pool type automated market-maker (AMM) protocol, it is one of the leading DEX on Terra.
+- [srdtrk/cw-ica-controller](https://github.com/srdtrk/cw-ica-controller) -
+  A controller contract for the Interchain Accounts
+  ([ICS-27](https://github.com/cosmos/ibc/blob/main/spec/app/ics-027-interchain-accounts/README.md))
+  spec. It allows users to create and manage interchain accounts on host chains that support the golang
+  implementation of ICS-27.
+- [AbstractSDK/abstract](https://github.com/AbstractSDK/abstract) - Abstract is
+  a development platform with a focus on code reusability and application sovereignty. 
 
 ## Tooling
 
@@ -200,8 +207,16 @@ These projects/contracts are developed and maintained by CosmWasm community.
 - [CWSimulate](https://cwsimulate.terran.one) - An online playground / simulation environment for interacting with CosmWasm contract binaries without a blockchain. Can be used for execution visualization / interactive debugging with time-traveling navigation.
 - [cosmy-wasmy](https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy) - A vscode extension to interact with CosmWasm smart contracts on devnet or testnet chains. Allows to query, execute, upload contracts as well as provide code completion snippets. 
 - [cosmwander](https://cosmwander.xyz) - Explore on-chain cosmwasm contracts and discover their message scheme. 
-
-
+- [WELLDONE Code](https://docs.welldonestudio.io/code/getting-started) - Remix IDE plugin that supports CosmWasm. It is a web-based IDE that allows developers to deploy smart contracts and execute functions through a browser wallet. It supports its own compiler server, so developers do not need to set up a development environment.
+- [Cosmwasm Studio](https://github.com/oraichain/smart-studio) - Monaco IDE that supports CosmWasm. It allows developers to code, build smart contracts and execute functions through a simulation. It supports its own rust-analyzer in Web Assembly so developers can code it the same as local VS Code.
+- [cosmwasm-tools](https://github.com/oraichain/cosmwasm-tools) - A super
+  fast and cross-platform alternative to `rust-optimizer` that produces optimized wasm files.
+  Written in Typescript, supporting watch mode, parallel builds, and ts-codegen sharing common dependencies.
+- [beaker](https://github.com/osmosis-labs/beaker) - A toolkit that simplifies interactions with CosmWasm smart contracts which offers scaffolding, deployment, upgrades, execution, querying, an interactive console, and task scripting capabilities.
+- [cw-orchestrator](https://github.com/AbstractSDK/cw-orchestrator) - A Rust-oriented CosmWasm scripting library that features a clean and unified syntax for interacting
+  with contracts in any environment.
+- [srdtrk/go-codegen](https://github.com/srdtrk/go-codegen) - A Go code generator for CosmWasm contracts. The quickest way to generate Go code for your CosmWasm smart contracts.
+ 
 ## dApps
 
 Looking for dApps to feature. See
