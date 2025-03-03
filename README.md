@@ -136,7 +136,7 @@ pieces you might like to use in your project as they are.
 - [cw4-stake](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw4-stake):
   This is a second implementation of the
   [cw4 spec](https://github.com/CosmWasm/cosmwasm-plus/blob/master/packages/cw4/README.md).
-  It fufills all elements of the spec, including the raw query lookups, and it
+  It fulfills all elements of the spec, including the raw query lookups, and it
   is designed to be used as a backing storage for cw3 compliant contracts.
 - [cw20-base](https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw20-base)
   by [ethanfrey](https://github.com/ethanfrey): Basic implementation of a
